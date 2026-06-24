@@ -117,7 +117,7 @@ a {
 
 /* Article Styling */
 .article-content {
-  padding: 4rem 0;
+  padding: 4rem 1.5rem;
 }
 
 .article-section {
@@ -326,7 +326,7 @@ a {
   }
   
   .article-content {
-    padding: 2rem 0;
+    padding: 2rem 1.5rem;
   }
   
   .article-content h2 {
