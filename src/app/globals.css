@@ -309,3 +309,56 @@ a {
     transform: translateY(0);
   }
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 3rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .article-content {
+    padding: 2rem 0;
+  }
+  
+  .article-content h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+  
+  .article-section {
+    margin-bottom: 2.5rem;
+  }
+  
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    margin: 2rem 0;
+  }
+  
+  .glass-card {
+    padding: 1.5rem;
+  }
+  
+  .links-section {
+    padding: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  
+  .links-list a {
+    padding: 0.8rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .tags {
+    margin-top: 2rem;
+  }
+}
